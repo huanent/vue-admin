@@ -1,7 +1,7 @@
 import Vuex from "vuex"
 import Vue from 'vue'
 
-const Index = resolve => require(['../views/Index'], resolve)
+const Home = resolve => require(['../views/home'], resolve)
 
 Vue.use(Vuex)
 
@@ -14,7 +14,7 @@ export default new Vuex.Store({
                 name: 'home',
                 disabled: false,
                 closable: false,
-                component: Index
+                component: Home
             }
         ]
     },
