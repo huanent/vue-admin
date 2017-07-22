@@ -1,2 +1,0 @@
-webpackJsonp([1],{128:function(e,n,t){var r=t(6)(t(132),t(133),null,null,null);e.exports=r.exports},132:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default={name:"Index"}},133:function(e,n){e.exports={render:function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v("\n    主页")])},staticRenderFns:[]}}});
-//# sourceMappingURL=1.8da7625524c80312118a.js.map
