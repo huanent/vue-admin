@@ -18,7 +18,7 @@ import { mapMutations } from 'vuex'
 export default {
   name: 'LeftNav',
   methods: {
-    ...mapMutations([
+    ...mapMutations('navTabs', [
       'addTab'
     ])
   }

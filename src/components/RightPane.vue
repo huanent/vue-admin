@@ -16,18 +16,18 @@ export default {
     computed: {
         activeTabName: {
             get() {
-                return this.$store.state.activeTabName;
+                return this.$store.state.navTabs.activeTabName;
             },
             set(value) {
-                this.$store.commit("setActiveTabName", value);
+                this.$store.commit("navTabs/setActiveTabName", value);
             }
         },
-        ...mapState([
+        ...mapState('navTabs',[
             'tabList'
         ])
     },
     methods: {
-        ...mapMutations([
+        ...mapMutations('navTabs',[
             'closeTab'
         ])
     }
