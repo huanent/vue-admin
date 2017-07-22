@@ -1,7 +1,7 @@
 import Vuex from "vuex"
 import Vue from 'vue'
 
-const Home = resolve => require(['../views/home'], resolve)
+const Home = resolve => require(['../views/Home'], resolve)
 
 Vue.use(Vuex)
 
